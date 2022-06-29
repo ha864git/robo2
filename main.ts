@@ -212,10 +212,10 @@ lastValue = 0
 led.setBrightness(10)
 basic.showIcon(IconNames.Heart)
 bluetooth.startLEDService()
-left_leg_init = 88
-left_foot_init = 86
-right_leg_init = 95
-right_foot_init = 90
+left_leg_init = 90
+left_foot_init = 88
+right_leg_init = 85
+right_foot_init = 92
 kitronik_i2c_16_servo.servoWrite(kitronik_i2c_16_servo.Servos.Servo1, left_leg_init)
 kitronik_i2c_16_servo.servoWrite(kitronik_i2c_16_servo.Servos.Servo2, left_foot_init)
 kitronik_i2c_16_servo.servoWrite(kitronik_i2c_16_servo.Servos.Servo3, right_leg_init)
